@@ -9,6 +9,7 @@
     "puppeteer": "^2.0.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js"
+    "test:desktop": "cucumber-js --require \"features/desktop/**/*.js\"",
+    "test:mobile": "cucumber-js --require \"features/mobile/**/*.js\""
   }
 }
